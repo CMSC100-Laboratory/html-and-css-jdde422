@@ -1,3 +1,7 @@
+/*
+  for the background image
+*/
+
 body {
     background-image: url('images/background.jpg'); 
     background-size: cover;
@@ -5,6 +9,9 @@ body {
     background-repeat: no-repeat;
 }
 
+/*
+  for the flex container and flex items
+*/
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -30,6 +37,14 @@ body {
     justify-content: center;
 }
 
+.flex-item.flex {
+    flex: 3;
+}
+
+/*
+  for the nav bar
+*/
+
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -45,9 +60,9 @@ body {
     flex: 1;
 }
 
-.flex-item.flex {
-    flex: 3;
-}
+/*
+  miscellaneous
+*/
 
 .projects {
     margin-top: 100px;
@@ -81,5 +96,3 @@ body {
     height: 200px;
     margin-left: 50px;
 }
-
-
