@@ -31,6 +31,12 @@
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+.title {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+}
+
+
 #game {
     width: 200px;
     height: 200px;
