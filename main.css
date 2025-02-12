@@ -9,6 +9,11 @@
     background-color: #D3D3D3;
 }
 
+.flex-container.under_header {
+    margin-top: 10px;
+    justify-content: center;
+}
+
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -20,6 +25,10 @@
     text-align: center;
 }
 
+.nav_bar div {
+    flex: 1;
+}
+
 
 .flex-container2 {
     display: flex;
@@ -27,6 +36,10 @@
     border-width: 5px;
     border-color: rgb(0, 255, 51);
     flex-direction: row;
+}
+
+.flex-item.flex {
+    flex: 3;
 }
 
 .projects {
@@ -79,12 +92,12 @@
     justify-content: center;
 }
 
-#game {
+.game_pics {
     width: 200px;
     height: 200px;
 }
 
-#skills {
+.skill_pics {
     width: 200px;
     height: 200px;
     margin-left: 50px;
