@@ -39,6 +39,11 @@ body {
 
 .flex-item.flex {
     flex: 3;
+    justify-content: center;
+}
+
+.flex-item.flex img {
+    margin-left: 2vw;
 }
 
 /*
