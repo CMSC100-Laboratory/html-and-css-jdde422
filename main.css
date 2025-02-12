@@ -3,6 +3,12 @@
     flex-direction: row;
 }
 
+.flex-container.header {
+    justify-content: center;
+    color: white;
+    background-color: #D3D3D3;
+}
+
 .nav_bar {
     display: flex;
     flex-direction: row;
@@ -55,17 +61,20 @@
     font-size: 40px;
 }
 
-#header {
-    justify-content: center;
-    color: white;
-    background-color: #D3D3D3;
-}
 
-#projects {
+
+#under_header {
+    margin-top: 10px;
     justify-content: center;
 }
 
-#sixth_container {
+#projects_header {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+#skills_header {
+    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -81,7 +90,7 @@
     margin-left: 50px;
 }
 
-#footer_container {
+.flex-container.footer {
     background-color: beige;
     border-style: solid;
     border-color: black;
