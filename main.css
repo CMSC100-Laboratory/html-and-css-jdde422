@@ -51,3 +51,7 @@
     height: 200px;
     margin-left: 50px;
 }
+
+.skill-desc {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
