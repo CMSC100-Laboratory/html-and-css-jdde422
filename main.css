@@ -22,3 +22,16 @@
     border-color: rgb(0, 255, 51);
     flex-direction: row;
 }
+
+.projects {
+    margin-top: 100px;
+}
+
+.description {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#game {
+    width: 200px;
+    height: 200px;
+}
