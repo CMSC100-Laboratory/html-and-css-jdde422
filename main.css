@@ -36,8 +36,18 @@
     font-size: 40px;
 }
 
+#sixth_container {
+    display: flex;
+    justify-content: center;
+}
 
 #game {
     width: 200px;
     height: 200px;
+}
+
+#skills {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
 }
